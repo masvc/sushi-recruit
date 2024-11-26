@@ -191,3 +191,83 @@ footer {
 .fa {
   margin: 0 20px;
 }
+
+
+/* --- ここからレスポンシブ対応のスタイル --- */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .logop {
+    font-size: 24px;
+  }
+
+  .navi {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .b1 {
+    width: 80%;
+    margin: 5px 0;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .missionimg {
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .mission {
+    font-size: 24px;
+    margin: 10px;
+  }
+
+  .b2,
+  .b3 {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .jobbox {
+    padding: 10px 20px;
+  }
+
+  .jb {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .pn {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+
+  .an {
+    padding: 5px 0;
+  }
+
+  .dn {
+    padding: 10px 0;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
